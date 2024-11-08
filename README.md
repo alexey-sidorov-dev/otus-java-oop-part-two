@@ -3,8 +3,10 @@
 ## ООП в Java. Наследование и полиморфизм.
 
 ---
-[![Actions Status](https://github.com/alexey-sidorov-dev/otus-java-oop-part-two/workflows/Build/badge.svg)](https://github.com/alexey-sidorov-dev/otus-java-oop-part-two/actions)
-[![Actions Status](https://github.com/alexey-sidorov-dev/otus-java-oop-part-two/workflows/Check/badge.svg)](https://github.com/alexey-sidorov-dev/otus-java-oop-part-two/actions)
+[![Build](https://github.com/alexey-sidorov-dev/otus-java-oop-part-two/workflows/Build/badge.svg)](https://github.com/alexey-sidorov-dev/otus-java-oop-part-two/actions)
+[![Check](https://github.com/alexey-sidorov-dev/otus-java-oop-part-two/workflows/Check/badge.svg)](https://github.com/alexey-sidorov-dev/otus-java-oop-part-two/actions)
+![Language](https://img.shields.io/github/languages/top/alexey-sidorov-dev/otus-java-oop-part-two)
+[![License](https://img.shields.io/github/license/alexey-sidorov-dev/otus-java-oop-part-two)](https://github.com/alexey-sidorov-dev/otus-java-oop-part-two/blob/master/LICENSE)
 
 ### Цель
 
