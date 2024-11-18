@@ -10,8 +10,6 @@ public abstract class Animal {
   boolean fatigue;
   int runVelocity;
   int swimVelocity;
-  boolean canRun;
-  boolean canSwim;
   int runStaminaCost;
   int swimStaminaCost;
 
@@ -28,9 +26,7 @@ public abstract class Animal {
     this.name = name;
     this.stamina = stamina;
     this.runVelocity = Math.max(runVelocity, 0);
-    this.canRun = runVelocity > 0;
     this.swimVelocity = Math.max(swimVelocity, 0);
-    this.canSwim = swimVelocity > 0;
   }
 
   /**
@@ -48,7 +44,7 @@ public abstract class Animal {
       return -1;
     }
 
-    if (!canRun) {
+    if (runVelocity <= 0) {
       System.out.println(msg.join(name, "не умеет бегать"));
       return -1;
     }
@@ -87,7 +83,7 @@ public abstract class Animal {
       return -1;
     }
 
-    if (!canSwim) {
+    if (swimVelocity <= 0) {
       System.out.println(msg.join(name, "не умеет плавать"));
       return -1;
     }
